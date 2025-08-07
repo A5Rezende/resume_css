@@ -33,7 +33,7 @@ CSS é a linguagem usada para definir a aparência dos elementos HTML em uma pá
 ## 🎨 4. Principais Propriedades
 
 ### 🔤 Texto
-- `color`
+- `color`: Define a cor do texto
 - `font-size`
 - `font-family`
 - `font-weight`
