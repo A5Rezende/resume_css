@@ -17,8 +17,8 @@ CSS é a linguagem usada para definir a aparência dos elementos HTML em uma pá
 
 ## 🎯 3. Seletores Comuns
 
-| Seletor           | Exemplo               | Descrição                                 |
-|-------------------|------------------------|--------------------------------------------|
+| Seletor           | Exemplo               | Descrição                                  |
+|-------------------|-----------------------|--------------------------------------------|
 | Universal         | `*`                   | Seleciona todos os elementos               |
 | Tipo (tag)        | `p`, `h1`             | Seleciona todas as tags `p`, `h1`, etc.    |
 | Classe            | `.menu`               | Seleciona todos com `class="menu"`         |
