@@ -129,7 +129,7 @@ CSS é a linguagem usada para definir a aparência dos elementos HTML em uma pá
 
 ---
 
-## 🎯 Resumo de Pseudo-classes e Pseudo-elementos no CSS
+## 🎯 7. Resumo de Pseudo-classes e Pseudo-elementos no CSS
 
 ### 🔘 Pseudo-classes (estado do elemento)
 
@@ -173,7 +173,7 @@ Os pseudo-elementos permitem estilizar partes específicas do conteúdo dos elem
 
 ---
 
-## ✅ 7. Boas Práticas
+## ✅ 8. Boas Práticas
 
 - Use **CSS externo**
 - Prefira **classes** a IDs para reutilização
@@ -184,7 +184,7 @@ Os pseudo-elementos permitem estilizar partes específicas do conteúdo dos elem
 
 ---
 
-## 💡 8. Exemplo Prático
+## 💡 9. Exemplo Prático
 
 ```css
 /* Estilo de um botão */
