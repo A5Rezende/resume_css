@@ -129,6 +129,50 @@ CSS é a linguagem usada para definir a aparência dos elementos HTML em uma pá
 
 ---
 
+## 🎯 Resumo de Pseudo-classes e Pseudo-elementos no CSS
+
+### 🔘 Pseudo-classes (estado do elemento)
+
+As pseudo-classes são usadas para definir estilos com base no **estado** de um elemento.
+
+| Pseudo-classe        | Descrição                                                                 |
+|----------------------|--------------------------------------------------------------------------|
+| `:hover`             | Quando o usuário passa o mouse sobre o elemento                          |
+| `:active`            | Quando o elemento está sendo clicado                                     |
+| `:focus`             | Quando o elemento está focado (ex: campo de formulário ativo)            |
+| `:visited`           | Para links já visitados                                                  |
+| `:link`              | Para links ainda não visitados                                           |
+| `:checked`           | Quando um input `checkbox` ou `radio` está marcado                       |
+| `:disabled`          | Quando um elemento está desabilitado                                     |
+| `:enabled`           | Quando está habilitado                                                   |
+| `:required`          | Quando um campo `input` é obrigatório                                    |
+| `:optional`          | Quando um campo `input` **não** é obrigatório                            |
+| `:nth-child(n)`      | Seleciona o enésimo filho (ex: `:nth-child(2)` pega o segundo)           |
+| `:nth-of-type(n)`    | Seleciona o enésimo filho de um tipo específico                         |
+| `:first-child`       | Seleciona o **primeiro** filho do elemento pai                           |
+| `:last-child`        | Seleciona o **último** filho                                              |
+| `:not(selector)`     | Seleciona todos os elementos que **não** correspondem ao seletor         |
+| `:empty`             | Seleciona elementos **sem filhos ou conteúdo**                           |
+| `:root`              | Representa o elemento raiz do documento (`<html>`)                       |
+| `:is()`              | Agrupa vários seletores (melhor performance que usar vírgula)            |
+
+### 🧩 Pseudo-elementos (partes do conteúdo)
+
+Os pseudo-elementos permitem estilizar partes específicas do conteúdo dos elementos.
+
+| Pseudo-elemento      | Descrição                                                                 |
+|----------------------|--------------------------------------------------------------------------|
+| `::before`           | Insere conteúdo **antes** do conteúdo do elemento                        |
+| `::after`            | Insere conteúdo **depois** do conteúdo do elemento                       |
+| `::first-letter`     | Aplica estilo à **primeira letra** do texto                              |
+| `::first-line`       | Aplica estilo à **primeira linha** do texto                              |
+| `::placeholder`      | Estiliza o texto do `placeholder` de um input                            |
+| `::selection`        | Estiliza o conteúdo **selecionado** pelo usuário                         |
+| `::marker`           | Estiliza o marcador de listas (`<li>`)                                   |
+| `::backdrop`         | Estiliza o plano de fundo de modais em tela cheia (`<dialog>`)           |
+
+---
+
 ## ✅ 7. Boas Práticas
 
 - Use **CSS externo**
