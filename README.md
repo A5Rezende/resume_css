@@ -46,8 +46,6 @@ CSS é a linguagem usada para definir a aparência dos elementos HTML em uma pá
 | `line-height`      | Espaçamento entre linhas                       |
 | `letter-spacing`   | Espaçamento entre letras                       |
 
----
-
 ### 📦 Propriedades de Caixa & Layout
 
 | Propriedade       | Descrição                                       |
@@ -65,8 +63,6 @@ CSS é a linguagem usada para definir a aparência dos elementos HTML em uma pá
 | `overflow`        | Como tratar conteúdo que ultrapassa o elemento |
 | `float`, `clear`  | Posicionamento lateral (antigo layout)         |
 
----
-
 ### 🧭 Propriedades de Flexbox
 
 | Propriedade         | Descrição                                       |
@@ -78,8 +74,6 @@ CSS é a linguagem usada para definir a aparência dos elementos HTML em uma pá
 | `flex-wrap`         | Permite quebra de linha dos itens               |
 | `gap`               | Espaçamento entre os itens do flex container    |
 
----
-
 ### 🎥 Animação e Transição
 
 | Propriedade      | Descrição                                          |
@@ -88,8 +82,6 @@ CSS é a linguagem usada para definir a aparência dos elementos HTML em uma pá
 | `transform`      | Transforma elemento (rotate, scale, translate...)  |
 | `animation`      | Controla animações personalizadas (keyframes)      |
 | `opacity`        | Define opacidade do elemento (0 a 1)               |
-
----
 
 ### 🎲 Propriedades de Fundo (Background)
 
@@ -100,8 +92,6 @@ CSS é a linguagem usada para definir a aparência dos elementos HTML em uma pá
 | `background-size`      | Tamanho da imagem (cover, contain, px...)    |
 | `background-repeat`    | Repetição da imagem (repeat, no-repeat...)   |
 | `background-position`  | Posição da imagem (top, center, left...)     |
-
----
 
 ### 🖱️ Outras Propriedades Úteis
 
