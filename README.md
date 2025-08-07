@@ -32,50 +32,85 @@ CSS é a linguagem usada para definir a aparência dos elementos HTML em uma pá
 
 ## 🎨 4. Principais Propriedades
 
-### 🔤 Texto
-- `color`: Define a cor do texto
-- `font-size`
-- `font-family`
-- `font-weight`
-- `text-align`
-- `text-decoration`
-- `text-transform`
-- `line-height`
-- `letter-spacing`
+### 🔤 Propriedades de Texto
 
-### 📦 Caixa & Layout
-- `width`, `height`
-- `padding`, `margin`
-- `border`, `border-radius`
-- `box-sizing: border-box`
-- `display`, `position`, `z-index`
-- `overflow`, `float`, `clear`
+| Propriedade        | Descrição                                      |
+|--------------------|------------------------------------------------|
+| `color`            | Define a cor do texto                          |
+| `font-size`        | Define o tamanho da fonte                      |
+| `font-family`      | Define o tipo de fonte usada                   |
+| `font-weight`      | Define a espessura da fonte (normal, bold...)  |
+| `text-align`       | Alinhamento do texto (left, center, right)    |
+| `text-decoration`  | Sublinhado, linha acima, etc                   |
+| `text-transform`   | Transforma texto em maiúsculas, minúsculas... |
+| `line-height`      | Espaçamento entre linhas                       |
+| `letter-spacing`   | Espaçamento entre letras                       |
 
-### 🧭 Flexbox
-- `display: flex`
-- `justify-content`
-- `align-items`
-- `flex-direction`
-- `gap`, `flex-wrap`
+---
 
-### 🎥 Animação
-- `transition`
-- `transform`
-- `animation`
-- `opacity`
+### 📦 Propriedades de Caixa & Layout
 
-### 🎲 Fundo
-- `background-color`
-- `background-image`
-- `background-size`
-- `background-repeat`
-- `background-position`
+| Propriedade       | Descrição                                       |
+|-------------------|-------------------------------------------------|
+| `width`, `height` | Define largura e altura do elemento             |
+| `padding`         | Espaço interno entre conteúdo e borda           |
+| `margin`          | Espaço externo entre elementos                  |
+| `border`          | Define borda do elemento                        |
+| `border-radius`   | Arredonda os cantos da borda                    |
+| `box-sizing`      | Controla como o tamanho do box é calculado     |
+| `display`         | Tipo de renderização (block, inline, flex...)  |
+| `position`        | Tipo de posicionamento (relative, absolute...) |
+| `top`, `left`     | Posição em relação ao pai ou tela              |
+| `z-index`         | Ordem de sobreposição                          |
+| `overflow`        | Como tratar conteúdo que ultrapassa o elemento |
+| `float`, `clear`  | Posicionamento lateral (antigo layout)         |
 
-### 🖱️ Outros
-- `cursor`
-- `visibility`
-- `box-shadow`
-- `outline`
+---
+
+### 🧭 Propriedades de Flexbox
+
+| Propriedade         | Descrição                                       |
+|---------------------|-------------------------------------------------|
+| `display: flex`     | Ativa o Flexbox                                 |
+| `flex-direction`    | Direção dos itens (row, column...)              |
+| `justify-content`   | Alinhamento horizontal dos itens                |
+| `align-items`       | Alinhamento vertical dos itens                  |
+| `flex-wrap`         | Permite quebra de linha dos itens               |
+| `gap`               | Espaçamento entre os itens do flex container    |
+
+---
+
+### 🎥 Animação e Transição
+
+| Propriedade      | Descrição                                          |
+|------------------|----------------------------------------------------|
+| `transition`     | Transição suave entre valores de propriedades      |
+| `transform`      | Transforma elemento (rotate, scale, translate...)  |
+| `animation`      | Controla animações personalizadas (keyframes)      |
+| `opacity`        | Define opacidade do elemento (0 a 1)               |
+
+---
+
+### 🎲 Propriedades de Fundo (Background)
+
+| Propriedade           | Descrição                                     |
+|------------------------|----------------------------------------------|
+| `background-color`     | Cor de fundo                                 |
+| `background-image`     | Imagem de fundo                              |
+| `background-size`      | Tamanho da imagem (cover, contain, px...)    |
+| `background-repeat`    | Repetição da imagem (repeat, no-repeat...)   |
+| `background-position`  | Posição da imagem (top, center, left...)     |
+
+---
+
+### 🖱️ Outras Propriedades Úteis
+
+| Propriedade        | Descrição                                 |
+|--------------------|--------------------------------------------|
+| `cursor`           | Define o tipo de cursor do mouse          |
+| `visibility`       | Visibilidade do elemento (`visible`, `hidden`) |
+| `box-shadow`       | Sombra ao redor do elemento               |
+| `outline`          | Contorno (sem ocupar espaço como a borda) |
 
 ---
 
